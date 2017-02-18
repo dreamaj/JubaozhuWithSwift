@@ -14,6 +14,8 @@
 		FD6F0E3D1E55940E00968CEB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD6F0E3B1E55940E00968CEB /* LaunchScreen.storyboard */; };
 		FD6F0E481E55940E00968CEB /* JubaozhuSwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6F0E471E55940E00968CEB /* JubaozhuSwiftTests.swift */; };
 		FD6F0E531E55940E00968CEB /* JubaozhuSwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6F0E521E55940E00968CEB /* JubaozhuSwiftUITests.swift */; };
+		FD6F0E631E584D5500968CEB /* NoizzViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6F0E621E584D5500968CEB /* NoizzViewController.swift */; };
+		FD6F0E651E584F2B00968CEB /* ImageEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD6F0E641E584F2B00968CEB /* ImageEditViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		FD6F0E4E1E55940E00968CEB /* JubaozhuSwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JubaozhuSwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD6F0E521E55940E00968CEB /* JubaozhuSwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JubaozhuSwiftUITests.swift; sourceTree = "<group>"; };
 		FD6F0E541E55940E00968CEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD6F0E621E584D5500968CEB /* NoizzViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoizzViewController.swift; sourceTree = "<group>"; };
+		FD6F0E641E584F2B00968CEB /* ImageEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageEditViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 			children = (
 				FD6F0E321E55940E00968CEB /* AppDelegate.swift */,
 				FD6F0E341E55940E00968CEB /* ViewController.swift */,
+				FD6F0E621E584D5500968CEB /* NoizzViewController.swift */,
+				FD6F0E641E584F2B00968CEB /* ImageEditViewController.swift */,
 				FD6F0E361E55940E00968CEB /* Main.storyboard */,
 				FD6F0E391E55940E00968CEB /* Assets.xcassets */,
 				FD6F0E3B1E55940E00968CEB /* LaunchScreen.storyboard */,
@@ -259,7 +265,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD6F0E651E584F2B00968CEB /* ImageEditViewController.swift in Sources */,
 				FD6F0E351E55940E00968CEB /* ViewController.swift in Sources */,
+				FD6F0E631E584D5500968CEB /* NoizzViewController.swift in Sources */,
 				FD6F0E331E55940E00968CEB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -503,6 +511,7 @@
 				FD6F0E591E55940E00968CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD6F0E5A1E55940E00968CEB /* Build configuration list for PBXNativeTarget "JubaozhuSwiftTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +520,7 @@
 				FD6F0E5C1E55940E00968CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FD6F0E5D1E55940E00968CEB /* Build configuration list for PBXNativeTarget "JubaozhuSwiftUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +529,7 @@
 				FD6F0E5F1E55940E00968CEB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
